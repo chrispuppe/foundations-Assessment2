@@ -95,5 +95,5 @@ const calcFinalPrice = (carTotal, couponValue, tax) => ((carTotal - couponValue)
     guidelines.
 */
 
-const customer1 = {name: "Jim Jones", email: "jimjones@supercool.com", customerId: 00064718367, phoneNumber: 6059874562}
-console.log(customer1)
+const customer1 = {name: "Jim Jones", email: "jimjones@supercool.com", customerId: 64718367, phoneNumber: 6059874562}
+// console.log(customer1)
