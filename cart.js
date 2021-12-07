@@ -36,7 +36,7 @@ const cart = [
 //CODE HERE
 
 const summedPrice = cart.reduce((preItem, curItem) => (preItem + curItem.price), 0)
-console.log(summedPrice)
+// console.log(summedPrice)
 
 //////////////////PROBLEM 2////////////////////
 /*  
@@ -54,7 +54,8 @@ console.log(summedPrice)
 */
 
 //CODE HERE
-
+const calcFinalPrice = (carTotal, couponValue, tax) => ((carTotal - couponValue) * (1 + tax))
+// console.log(calcFinalPrice(20, 5, .06))
 
 
 //////////////////PROBLEM 3////////////////////
@@ -78,7 +79,14 @@ console.log(summedPrice)
 */
 
 /*
-    TEXT ANSWER HERE
+    name: because we need to identify the customer
+        it should be a string because it only needs to be text
+    email: because we need comunicate with the customer
+        it should be a string because it only needs to be text
+    customerId: because we need uniquly identify the customer
+        it needs to be unique and uniform and I would use a number because it uses slightly less space 
+    phoneNumber: because we need a secondary way to communicate the customer
+        I would save it as a number for size and validation purposes.
 
 */
 
@@ -87,4 +95,5 @@ console.log(summedPrice)
     guidelines.
 */
 
-//CODE HERE
+const customer1 = {name: "Jim Jones", email: "jimjones@supercool.com", customerId: 00064718367, phoneNumber: 6059874562}
+console.log(customer1)
