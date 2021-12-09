@@ -89,8 +89,8 @@ const canWeDeliverTwo = (zipCode) => {
     return "Sorry we don't deliver to your area."
 }
 
-console.log(canWeDeliverTwo(85205))
-console.log(canWeDeliverTwo(85658))
+// console.log(canWeDeliverTwo(85205))
+// console.log(canWeDeliverTwo(85658))
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -126,8 +126,11 @@ const deals = [
 */
 
 //CODE HERE
+for (i=0;i<deals.length;i++){
+    deals[i].title = deals[i].title.replace('15', '10')
+}
 
-
+// console.log(deals)
 
 /*
     The restaurant is going to continue its
