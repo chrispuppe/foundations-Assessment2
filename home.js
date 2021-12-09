@@ -80,7 +80,17 @@ const canWeDeliver = (zipCode) => {
 */
 
 // CODE HERE
+const canWeDeliverTwo = (zipCode) => {
+    for(i=0;i<deliveryAreaZipCodes.length;i++){
+        if (deliveryAreaZipCodes[i] === zipCode){
+            return "Yay! We can deliver to you!"
+        }
+    }
+    return "Sorry we don't deliver to your area."
+}
 
+console.log(canWeDeliverTwo(85205))
+console.log(canWeDeliverTwo(85658))
 
 //////////////////PROBLEM 3////////////////////
 /* 
