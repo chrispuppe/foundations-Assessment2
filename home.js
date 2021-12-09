@@ -22,8 +22,8 @@
 */
 
 //CODE HERE
-
-
+const greetUser = (username) => (`Welcome back, ${username}`)
+// console.log(greetUser("Chris"))
 
 
 
@@ -50,7 +50,16 @@
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
 //CODE HERE
+const canWeDeliver = (zipCode) => {
+    if (deliveryAreaZipCodes.includes(zipCode)) {
+        return "Yay! We can deliver to you!"
+    } else {
+        return "Sorry we don't deliver to your area."
+    }
+}
 
+// console.log(canWeDeliver(85205))
+// console.log(canWeDeliver(85658))
 
 
 /* 
