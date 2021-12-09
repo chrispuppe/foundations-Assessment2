@@ -146,3 +146,8 @@ for (i=0;i<deals.length;i++){
 */
 
 //CODE HERE
+for (i=0;i<deals.length;i++){
+    deals[i].desc = deals[i].desc.replace('March', 'April').trim()
+}
+
+// console.log(deals)
