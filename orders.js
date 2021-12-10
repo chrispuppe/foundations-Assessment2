@@ -30,7 +30,18 @@
 */
 
 //CODE HERE
+class Ticket {
+    constructor(items, orderTime, customerId) {
+        this.items = items
+        this.orderTime = orderTime
+        this.customerId = customerId
+        this.orderStatus = orderStatus
+    }
+    updateStatus(newStatus) {
+        this.status = newStatus
+    }
 
+}
 
 
 /*
@@ -45,7 +56,7 @@
 */
 
 //CODE HERE
-
+firstTicket("pizza, bread, and soda", "7:03 PM",  575)
 
 /*
     Call the `updateStatus` method on
@@ -54,3 +65,4 @@
 */
 
 //CODE HERE
+firstTicket.updateStatus("cooking")

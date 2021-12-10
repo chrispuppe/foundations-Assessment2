@@ -157,7 +157,7 @@ const foodArr = [
 //CODE HERE
 
 const filteredFood = foodArr.filter(food => food.tags.includes("side order"))
-console.log(filteredFood)
+// console.log(filteredFood)
 
 
 
@@ -201,7 +201,9 @@ console.log(filteredFood)
 */
 
 //CODE HERE
-
+const filterByProperty = (property, number, type) => {
+    foodArr
+}
 
 /*
     Invoke the `filterByProperty` function passing
