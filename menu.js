@@ -98,7 +98,48 @@ console.log(cat1)
 */
 
 //CODE HERE
-
+const foodArr = [
+    {
+        name: "Peperoni Pizza",
+        price: 12.99,
+        category: "entree",
+        popularity :1,
+        rating: 4.8,
+        tags: ["House special", "classic", "favorite"],
+    },
+    {
+        name: "Hawian Pizza",
+        price: 14.99,
+        category: "entree",
+        popularity :6,
+        rating: 3.9,
+        tags: ["new", "fun", "on sale"],
+    },
+    {
+        name: "BBQ Chicken Pizza",
+        price: 16.99,
+        category: "entree",
+        popularity :2,
+        rating: 4.8,
+        tags: ["new", "", "favorite"],
+    },
+    {
+        name: "French Fries",
+        price: 12.99,
+        category: "appetizer",
+        popularity :4,
+        rating: 4.5,
+        tags: ["gluten-free", "classic", "side order"],
+    },
+    {
+        name: "Salad",
+        price: 5.99,
+        category: "appetizer",
+        popularity :8,
+        rating: 4.2,
+        tags: ["Non-dairy", "low calorie", "side order"],
+    }
+]
 
 
 //////////////////PROBLEM 4////////////////////
@@ -115,7 +156,8 @@ console.log(cat1)
 
 //CODE HERE
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
+const filteredFood = foodArr.filter(food => food.tags.includes("side order"))
+console.log(filteredFood)
 
 
 
