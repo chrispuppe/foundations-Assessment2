@@ -37,10 +37,9 @@ class Ticket {
         this.customerId = customerId
         this.orderStatus = orderStatus
     }
-    updateStatus(newStatus) {
+    set updateStatus(newStatus) {
         this.status = newStatus
     }
-
 }
 
 
