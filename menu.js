@@ -70,8 +70,8 @@ console.log(pizza.tags[1])
 */
 
 //CODE HERE
-let price1 = pizza.price
-console.log(price1)
+let {price} = pizza
+console.log(price)
 
 /*
     Fourth, and last, destructure the category
@@ -81,8 +81,8 @@ console.log(price1)
 */
 
 //CODE HERE
-let cat1 = pizza.category
-console.log(cat1)
+let {category} = pizza
+console.log(category)
 
 
 //////////////////PROBLEM 3////////////////////
